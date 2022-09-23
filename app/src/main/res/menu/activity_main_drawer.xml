@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_nav_def"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_my_referral"
+            android:icon="@drawable/ic_nav_def"
+            android:title="My Referral" />
+        <item
+            android:id="@+id/nav_my_offer"
+            android:icon="@drawable/ic_nav_def"
+            android:title="My Offer" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_nav_def"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_term_condition"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Terms &amp; Condition" />
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_register_complaint"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Register Complaint" />
+        <item
+            android:id="@+id/nav_contact_uc"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_follow_us"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Follow Us" />
+        <item
+            android:id="@+id/nav_rate_us"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_Log_out"
+            android:icon="@drawable/ic_nav_def"
+            android:title="Logout" />
+    </group>
+</menu>

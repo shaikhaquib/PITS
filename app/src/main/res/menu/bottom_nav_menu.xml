@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--these items will be always visible
+        on the Bottom navigation bar-->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:layout_alignParentRight="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title=""
+        android:layout_alignParentLeft="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_round_content_paste_24"
+        android:title="Settings"
+        android:layout_alignParentLeft="true"
+        app:showAsAction="always" />
+
+
+</menu>

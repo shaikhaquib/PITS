@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="2"
+            android:useLevel="false" >
+
+            <solid android:color="@android:color/transparent" />
+
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/theme_brown" />
+        </shape>
+    </item>
+    <item android:top="24dp"
+        android:bottom="24dp"
+        android:left="24dp"
+        android:right="24dp"
+        android:drawable="@drawable/ic_bull"/>
+</layer-list>
